@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Summarizer</h1>
+            <button id="mode-toggle" title="Toggle Dark Mode">🌙</button>
+        </header>
+        
+        <section class="input-section">
+            <textarea id="text-input" placeholder="Paste your text here..." rows="6"></textarea>
+            <button id="summarize-btn">Summarize</button>
+        </section>
+        
+        <section class="output-section">
+            <h2>Summary:</h2>
+            <div id="summary-output"></div>
+            <div id="loading" class="hidden">Processing...</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

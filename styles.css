@@ -1,0 +1,90 @@
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.output-section {
+    margin-top: 20px;
+}
+
+#summary-output {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    min-height: 50px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode button {
+    background-color: #4CAF50;
+}
+
+body.dark-mode textarea {
+    background-color: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+body.dark-mode #summary-output {
+    background-color: #555;
+}
+
+#loading {
+    font-size: 16px;
+    color: #007BFF;
+}
+
+.hidden {
+    display: none;
+}
